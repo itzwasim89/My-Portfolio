@@ -125,6 +125,37 @@
 
 /* ---------------About US Ends--------------- */
 
+/* Contact Start  */
+
+#contact-us {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#contact{
+    display: flex;
+}
+#email{
+    display: flex;
+}
+#address{
+    display: flex;
+}
+.contact-information, .contact-form{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* Contact End */
 
 /*--------------- Footer Start-----------------------------------------------------*/
 #footer{
@@ -178,7 +209,7 @@ align-items: center;
 
 .linkedin :hover{
     color: #0E76A8;
-    background-color: aliceblue;
+    
     
     
 }
@@ -192,8 +223,8 @@ align-items: center;
 }
 
 .youtube :hover{
-    color: #FF0000
-    ;
+    color: #FF0000 ;
+   
 }
 
 .github :hover{
